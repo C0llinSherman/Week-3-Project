@@ -1,0 +1,155 @@
+Home Page
+
+    h1 { font-family: Abel; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; } h3 { font-family: Abel; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; } p { font-family: Abel; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400} blockquote { font-family: Abel; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400} pre { font-family: Abel; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 4004px; }
+    body, .nav, .pages, h1, html, h2, h3, h4, a {
+        font-size: 100%;
+        padding: 0;
+        margin: 0;
+        font-weight: lighter;
+        text-decoration: none;
+        color: white;
+    }
+
+    .main-page {
+        background-image: url("images/1fa392d4-76c5-4dc5-899b-ca5869554f2f--2016-0115_zwilling_miyabi-birchwood-knife-collection_carousel_bobbi-lin_16314.jpeg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: white;
+        background-size: cover;
+    }
+
+    .nav {
+        color: white;
+        display: inline;
+        width: auto;
+        padding-top: 30px;
+        margin-right: 50px;
+        margin-left: 50px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 18px;
+    }
+
+
+    h1 {
+        font-weight: bold;
+    }
+
+    a {
+        margin-left: 15px;
+        font-weight: bolder;
+    }
+
+    hr {
+        margin-left: 48px;
+        margin-right: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .page-main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 70vh;
+    }
+
+    h2 {
+        font-size: 120px;
+        font-weight: bold;
+    }
+
+    h3 {
+        font-size: 60px;
+    }
+
+    .page-main hr {
+        width: 525px
+    }
+
+Menu Page
+
+    .menu-page {
+        background-color: #222222;
+    }
+
+    .row-1 {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .info-1 {
+        margin: 0 20px 0 20px;
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+        align-items: center;
+        width: 60%;
+    }
+
+    .row-2 {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .info-2 {
+        margin: 0 20px 0 20px;
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+        align-items: center;
+        width: 60%;
+    }
+
+    .row-3 {
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+    
+    }
+
+    .info-3 {
+        margin: 0 20px 0 20px;
+        display: flex;
+        justify-content: left;
+        flex-direction: column; 
+        align-items: center;
+        width: 60%;
+    }
+        
+    .pineapple {
+        width: 40%;
+        
+    }   
+
+    .bread {
+        width: 40%;  
+    }
+
+    .pasta {
+        width: 40%;
+    }
+
+    h4 {
+        margin-top: 50px;
+        font-size: 40px; 
+    }
+
+    p {
+        margin-top: 25px;
+        font-size: 30px;
+    }
+
+Contact Page
+
+    .contact-page {
+        background-color: #888888;
+    }
+
+    form {
+        margin-top: 50px;
+    }
